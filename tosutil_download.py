@@ -3,13 +3,11 @@ from optparse import OptionParser
 
 
 # 火山引擎对象存储工具
-#tosutil = './tosutil'
-tosutil = '/ifs1/home/luohaosen/software/tos-python/tosutil'
+tosutil = './tosutil'
 
 
 # 原始config文件
-#origin_tosutil_config = './.tosutilconfig'
-origin_tosutil_config = '/ifs1/home/luohaosen/.tosutilconfig'
+origin_tosutil_config = './.tosutilconfig'
 
 
 def download(url_path, output_dir, config_file):
